@@ -15,7 +15,7 @@
 
 现在，我们可以列出整数规划的数学模型：
 
-​                                                       $$ min \sum_{i}(credit_{i} * x_{i})$$
+​                                                       $$min \sum_{i}(credit_{i} * x_{i})$$
 
 其中，$credit_i$表示第i门课程的学分。
 
