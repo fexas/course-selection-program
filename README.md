@@ -21,7 +21,7 @@
 
 约束条件：
 
-1. 先修课约束：对于每门课程i，如果它有先修课程j，则必须选择先修课程j才能选择课程i。这可以通过添加二进制约束条件来表示： $x_i \leq x_j, for~all~(i, j)~in~prerequisites$
+1. 先修课约束：对于每门课程i，如果它有先修课程j，则必须选择先修课程j才能选择课程i。这可以通过添加二进制约束条件来表示： $x_i \leq x_j, for \space all \space (i, j) \space in \space prerequisites$
 2. 学分约束：对于每个类别c，所选课程的总学分必须大于等于该类别的最小学分要求。这可以通过添加线性约束条件来表示： $\sum_{for \space all \space i
 3. \space in\space category \space c}(credit_i * x_i), \geq category\_credits(c),\space for\space all \space c$
 4. 决策变量约束：决策变量$x_i$必须是二进制变量。 $x_i ∈ \{0, 1\},\space for \space all \space i$
